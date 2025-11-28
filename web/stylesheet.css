@@ -1,0 +1,116 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+
+/* Stylesheet for CloudToon Web Application */
+
+
+.my-5 {
+    margin-top: 6rem !important;
+}
+
+.my-6 {
+    margin-top: 2rem !important;
+}
+
+nav {
+    background-color: #a09d9d;
+    padding: 10px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+/*ไม่ขึ้นเลยใส่แม่งให้หมด*/
+hr {
+    border: 0;
+    margin: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.frame-bg {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+/*------------------*/
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: blue;
+    text-decoration:underline;
+}
+
+.button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100%;
+    /* ปุ่มกว้างเต็ม */
+
+    display: flex;
+    /* ใช้ flex ภายในปุ่ม */
+    justify-content: center;
+    /* จัดข้อความ+icon กลางแนวนอน */
+    align-items: center;
+    /* จัดกลางแนวตั้ง */
+    gap: 8px;
+    /* ระยะห่างระหว่างข้อความกับ icon */
+    text-decoration: none;
+    /* ตัดขีดเส้นใต้ของ <a> */
+}
+
+.button:hover {
+    background-color: #333;
+    text-decoration: none;
+    /* ตัดขีดเส้นใต้ของ <a> */
+}
+
+hr {
+    border: 0;
+    margin: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+/* icon ในตารางหลังบ้าน*/
+td a i{
+    font-size: 20px;
+    padding-left: 1.2rem !important;
+    color: black;
+
+}
+
+td a i:hover{
+    opacity: 0.5;
+    color:gray;
+}

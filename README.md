@@ -55,10 +55,44 @@
 > Note: ส่วนใหญ่มีทั้งโค้ดที่ build แล้วใน `build/web/...` และไฟล์ต้นฉบับใน `web/...` — แก้ใน `web/` และ `src/java/` เป็นหลัก
 
 ## ฐานข้อมูล (MySQL)
-- ตารางที่ใช้(ตัวอย่างจากโค้ด):
+- ตารางที่ใช้:
   - `cartoon` (รวม `cover` เป็น BLOB)
+   
+    ![ตารางcartoon](<WebImg/Screenshot 2025-12-08 192624.png>)
+    
   - `register` (ผู้ใช้, coins, password, email)
-  - `bookmark`, `purchase_episode`, `coin_history`, `packages_coin` ฯลฯ
+    
+     ![ตารางregister](<WebImg/Screenshot 2025-12-08 192743.png>)
+    
+  - `bookmark`
+    
+     ![ตารางbookmark](<WebImg/Screenshot 2025-12-08 192612.png>)
+    
+  - `purchase_episode`
+      
+     ![ตารางpurchase_episode](<WebImg/Screenshot 2025-12-08 192732.png>)
+    
+  - `coin_history`
+        
+     ![ตารางcoin_history](<WebImg/Screenshot 2025-12-08 192659.png>)
+    
+  - `packages_coin`
+        
+     ![ตารางpackages_coin](<WebImg/Screenshot 2025-12-08 192722.png>)
+    
+  - `episode`
+      
+     ![ตารางepisode](<WebImg/Screenshot 2025-12-08 192710.png>)
+    
+  - `category`
+        
+     ![ตารางcategory](<WebImg/Screenshot 2025-12-08 192646.png>)
+    
+  - `cartoon_category`
+        
+     ![ตารางcartoon_category](<WebImg/Screenshot 2025-12-08 192635.png>)
+ 
+    
 - ปรับข้อมูลการเชื่อมต่อใน `connectDB.MyCon` (ไฟล์เชื่อมต่อ) ให้ตรงกับ environment ของคุณ
 
 ## 🏗️ สถาปัตยกรรมระบบ (Architecture)
